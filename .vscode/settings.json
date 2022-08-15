@@ -1,0 +1,22 @@
+{
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc -Wall -Wextra -Werror $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -Wall -Wextra -Werror $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "files.associations": {
+        "*.tcc": "c",
+        "algorithm": "c",
+        "memory": "c",
+        "random": "c",
+        "fstream": "c",
+        "iosfwd": "c",
+        "iostream": "c",
+        "istream": "c",
+        "numeric": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c"
+    }
+}
