@@ -17,6 +17,7 @@
         "numeric": "c",
         "ostream": "c",
         "sstream": "c",
-        "streambuf": "c"
+        "streambuf": "c",
+        "stdio.h": "c"
     }
 }
