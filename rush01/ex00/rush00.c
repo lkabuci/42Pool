@@ -63,20 +63,6 @@ void    display_row(int y_axis)
     ft_putchar('\n');
 }
 
-void    display_header_footer(int width)
-{
-    int i;
-
-    i = -1;
-    ft_putchar('o');
-    while (++i < width - 2)
-    {
-        ft_putchar('-');
-    }
-    ft_putchar('o');
-    ft_putchar('\n');
-}
-
 void    display_body(int width, int height)
 {
     int i;
@@ -99,8 +85,8 @@ void    display_body(int width, int height)
 
 void    display_matrix(int x_axis, int y_axis)
 {
-    display_header_footer(x_axis);
+    display_row(x_axis);
     display_body(x_axis, y_axis);
-    display_header_footer(x_axis);
+    display_row(x_axis);
 }
 
